@@ -29,6 +29,19 @@ Format: Priority (1=urgent) | Topic | Stream | Source | Notes
 
 ---
 
+### "Systems thinking: the lens beneath everything V does"
+- **Stream:** Both — teaching (Video 2 or 3) + enterprise (Video 2)
+- **Source:** V's approach — explicit now (2026-04-28)
+- **Hook:** "AI is not a tool. It's a node in a system you design."
+- **Teaching angle:** ICM/MWP as systems design. Every stage = stock, flow, feedback loop, leverage point.
+- **Enterprise angle:** Most AI problems are systems problems. Archetypes, leverage points, iceberg model.
+- **Soundbite ready:** YES — "One change at the right leverage point outperforms ten at the wrong one."
+- **Config ready:** YES — `_config/systems-thinking.md` (full lens, concepts, mappings, references)
+- **Cross-link:** Every other topic references this. It's the meta-frame.
+- **Notes:** Don't make this an isolated video — thread systems thinking language through ALL content. Explicit video + implicit lens throughout series.
+
+---
+
 ## Priority 2 — Strong Candidates
 
 ### "AI is 70 years old — and why that matters now"

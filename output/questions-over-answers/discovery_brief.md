@@ -149,12 +149,30 @@ By end of video, exec can:
 
 ---
 
+## Systems Thinking Lens (Layer Into Both Scripts)
+
+Load `_config/systems-thinking.md` during Stage 03 scripting. Apply these mappings:
+
+**Teaching script:**
+- Frame "question quality" through **mental models** lens: "Your mental model of AI determines what you build with it."
+- Use **leverage points**: "The paradigm shift (questions > answers) is the highest-leverage change you can make."
+- Use **feedback loops**: "Better questions → better outputs → more trust → better questions → [virtuous loop]"
+
+**Enterprise script:**
+- Open with **iceberg model**: "You're reacting to AI events (bad outputs). Let's redesign the structure."
+- Name the archetype: **"Fixes That Fail"** — "You kept prompting harder. The system kept degrading. That's not an AI problem. That's a systems problem."
+- Land on **leverage**: "Paradigm-level change (how you think about questions) outperforms parameter-level change (which model you use)."
+
+**Soundbite from systems lens:**
+> "Most teams are pulling the wrong levers. Switching models is parameter-level thinking. Changing how you ask questions is paradigm-level thinking. That's where the leverage is."
+
 ## Cross-References
 
 - Quotes ready: `stages/00_capture/quotes_raw.md`
 - Analogies ready: `stages/00_capture/analogies_bank.md`
 - Objections ready: `stages/00_capture/objections_bank.md`
-- LangChain topic (related — question design vs scaffolding): `stages/00_capture/topics_backlog.md`
+- Systems thinking reference: `_config/systems-thinking.md` ← load during Stage 03
+- LangChain topic (related): `stages/00_capture/topics_backlog.md`
 
 ---
 

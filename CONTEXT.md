@@ -46,6 +46,19 @@ Pipeline routes it:
 - `_config/enterprise-voice.md` → Tone for executive content
 - `_config/icm-mwp-framework.md` → Reference knowledge (static)
 - `_config/catchphrases.md` → Enterprise soundbites library
+- `_config/systems-thinking.md` → Meta-lens: load during Stage 03 for all scripts
+
+## Systems Thinking: The Meta-Lens
+All content uses systems thinking as the underlying intellectual framework.
+ICM/MWP is systems thinking applied to AI context management.
+
+Every script (teaching + enterprise) should thread in:
+- The relevant archetype (what failure pattern does this topic prevent?)
+- The leverage point (where is the high-impact change?)
+- The feedback loop (what reinforcing or balancing loop is at play?)
+- The mental model shift (what belief needs to change?)
+
+See `_config/systems-thinking.md` for full concept library + ICM/MWP mappings.
 - `references/` → Stable templates, examples, analogies
 
 ## Working State (Layer 4)
