@@ -14,74 +14,135 @@ production_specs.md        (visual needs, demo details, animation scenes)
 ```
 
 ## Process
+
+### Tier 1 — Always Produce
+
 1. **Create Spoken Delivery Assets**
    - Extract speaker notes (pacing, emphasis, pauses)
-   - Output as: `spoken_notes.md` (for recording talent)
+   - Output: `spoken_notes.md`
    - Include: [PAUSE: X sec], [EMPHASIS: X], [LOOKCAM: X]
 
 2. **Create Deck (Slide Presentation)**
    - Parse [SLIDE:...] markers from script
-   - 1 slide per major section (typically 8-12 slides for 30 min)
-   - Structure: Title → Problems/Concepts → Examples → Conclusion
-   - Output: `deck_outline.md` (markdown outline, not PowerPoint)
-   - Include: Slide text, call-outs for visuals, speaker notes per slide
+   - 8-12 slides for 30 min
+   - Output: `deck_outline.md`
+   - Template: `references/deck_template.md`
 
 3. **Create Blog Post**
-   - Convert script → article form (prose, not spoken)
-   - Add citations + links (from research)
-   - Add section headers for scannability
-   - Include code blocks, images (as [IMAGE: description])
-   - Add CTA (call-to-action: subscribe, next lesson, etc.)
+   - Script → prose (not copy-paste, rewrite for reading)
+   - Add citations, section headers, CTA
    - Output: `blog_post.md`
-   - Length: usually 1500-2500 words (script text → prose)
+   - Template: `references/blog_template.md`
 
 4. **Create LinkedIn Post + Video Clip**
-   - Extract 1-3 catchy quotes/soundbites from script
-   - Create LinkedIn post: short text (100-300 chars) + hook + CTA
-   - Identify where video clip should be: [CLIP: X min:sec from spoken recording]
-   - Length: 15-60 sec recommended
-   - Output: `linkedin_post.md` (post text + clip timestamp)
+   - Extract 1-3 soundbites from script
+   - Short post (100-300 chars) + clip timestamp
+   - Output: `linkedin_post.md`
 
-5. **Create Animation Spec** (If needed)
-   - Parse [ANIMATION: scene description] from script
-   - Detail what visuals are needed (characters, transitions, text overlays)
-   - Scene-by-scene breakdown with script match (which words, which visuals)
-   - Output: `animation_spec.md`
-
-6. **Create YouTube Package**
-   - Title: [title + variant for SEO]
-   - Description: [500 char summary + links + timestamps]
-   - Timestamps: [Rough breakdown of video sections]
-   - Tags: [SEO keywords from topic + research]
-   - Thumbnail description: [Visual concept for thumbnail design]
+5. **Create YouTube Package**
+   - Title, description, timestamps, tags, thumbnail spec
    - Output: `youtube_package.md`
+   - Template: `references/youtube_template.md`
+
+6. **Create Email (Newsletter)**
+   - Script → 300-500 word newsletter
+   - Output: `email_newsletter.md`
+   - Template: `references/email_template.md`
+
+### Tier 2 — Full Run
+
+7. **Create Twitter/X Thread**
+   - Extract soundbites + data points + analogy → 6-10 tweets
+   - Output: `twitter_thread.md`
+   - Template: `references/twitter_thread_template.md`
+
+8. **Create LinkedIn Article (Enterprise)**
+   - Enterprise script → 800-1500 word thought leadership article
+   - Output: `linkedin_article.md`
+   - Template: `references/linkedin_article_template.md`
+
+9. **Create Executive Email**
+   - Enterprise script → 200-350 word executive summary
+   - Output: `email_executive.md`
+   - Template: `references/email_template.md` (Type B)
+
+10. **Create Shorts Spec (YouTube / Reels / TikTok)**
+    - Identify 3-5 best 60-sec moments from full video
+    - Output: `shorts_spec.md`
+    - Template: `references/shorts_template.md`
+
+11. **Create Stage Talk Package**
+    - Script → stage-ready talk (deck for projection, speaker notes, Q&A prep)
+    - Output: `stage_talk_notes.md`
+    - Template: `references/stage_talk_template.md`
+
+12. **Create Live Session Notes**
+    - Script → webinar/121/workshop version (shorter, more Q&A)
+    - Output: `live_session_notes.md`
+    - Template: `references/live_session_template.md`
+
+### Tier 3 — Premium (Resource/Budget Required)
+
+13. **Create Animation Spec**
+    - Parse [ANIMATION: scene description] from script
+    - Scene-by-scene with timing, motion, narration sync
+    - Output: `animation_spec.md`
+    - Template: `references/animation_template.md`
+
+14. **Create Interactive Demo Package**
+    - Script code examples → runnable demo with problem/solution/compare
+    - Output: `demo/` (code repo) + `demo_spec.md`
+    - Template: `references/demo_template.md`
+
+15. **Create Podcast Spec**
+    - Notes for audio extraction from video recording
+    - Output: `podcast_spec.md`
+
+16. **Create Quote Graphics Brief**
+    - Extract 3-5 soundbites from enterprise script → Canva brief
+    - Output: `quote_graphics_brief.md`
 
 ## Outputs (To output/ folder)
 ```
 output/[topic-slug]/
-├─ spoken_notes.md              [For recording artist]
-├─ deck_outline.md              [For deck designer]
-├─ blog_post.md                 [For blog publishing]
-├─ linkedin_post.md             [Text + clip spec]
-├─ animation_spec.md            [For animator/designer]
-├─ youtube_package.md           [For video upload]
-├─ README.md                    [Index of all deliverables]
+├─ README.md                    [Index of all deliverables + publish status]
+├─ spoken_notes.md              [Recording talent]
+├─ deck_outline.md              [Deck designer + stage presenter]
+├─ blog_post.md                 [Blog publishing]
+├─ linkedin_post.md             [Video post + clip spec]
+├─ linkedin_article.md          [Enterprise thought leadership]
+├─ youtube_package.md           [Video upload: title/desc/timestamps/tags]
+├─ shorts_spec.md               [3-5 clips: hook/body/CTA/edit notes]
+├─ email_newsletter.md          [Teaching audience email]
+├─ email_executive.md           [Enterprise decision-maker email]
+├─ twitter_thread.md            [6-10 tweet thread]
+├─ stage_talk_notes.md          [Conference / all-hands / board talk]
+├─ live_session_notes.md        [Webinar / 121 / workshop]
+├─ animation_spec.md            [Animator/designer — scene-by-scene]
+├─ demo_spec.md                 [Interactive demo spec]
+├─ podcast_spec.md              [Audio extraction notes]
+├─ quote_graphics_brief.md      [Soundbite graphics for social]
 └─ source/
-   ├─ teaching_script.md        [Original script]
-   ├─ enterprise_script.md      [If both streams]
-   ├─ research_output.md        [For reference]
-   └─ discovery_brief.md        [For reference]
+   ├─ teaching_script.md
+   ├─ enterprise_script.md
+   ├─ research_output.md
+   └─ discovery_brief.md
 ```
 
 ## Success Criteria
-✓ Every [SLIDE:...] marker → one slide outline
-✓ Every [DEMO:...] marker → identified in deck + blog + animation spec
-✓ Every [PAUSE:...] marker → preserved in spoken notes
-✓ Script text → blog post (prose conversion, not copy-paste)
-✓ LinkedIn post: <300 chars, includes hook + CTA
-✓ YouTube package: description, timestamps, tags, thumbnail spec
-✓ Animation spec: scene-by-scene with script timestamps
-✓ All deliverables link back to research (citations, quotes credited)
+✓ Tier 1 always complete: spoken, deck, blog, linkedin_post, youtube, email
+✓ Every [SLIDE:...] → one slide in deck_outline
+✓ Every [DEMO:...] → identified in deck + blog + demo_spec
+✓ Every [PAUSE:...] → preserved in spoken_notes
+✓ Every [SOUNDBITE:...] → in linkedin_post + linkedin_article + twitter_thread + quote_graphics
+✓ Script → blog post prose conversion (not copy-paste, fully rewritten for reading)
+✓ LinkedIn post: <300 chars hook + CTA
+✓ LinkedIn article: 800-1500 words, data + soundbite + one CTA
+✓ YouTube: title/description/timestamps/tags/thumbnail spec
+✓ Shorts: 3-5 clips, each with hook/body/CTA/caption/edit notes
+✓ Stage talk: deck formatted for projection (6 words/slide max), Q&A prep included
+✓ All deliverables traceable to research (citations in blog + linkedin_article)
+✓ README.md index created (publish checklist for all formats)
 
 ## Produced Files
 - `spoken_notes.md` → recording artist
@@ -93,11 +154,28 @@ output/[topic-slug]/
 - `README.md` → deliverables index
 - `output/[topic-slug]/` folder structure → final delivery package
 
-## Templates Used
-- See `references/deck_template.md` (slide structure)
-- See `references/blog_template.md` (article structure)
-- See `references/animation_template.md` (visual storytelling)
-- See `references/youtube_template.md` (SEO + packaging)
+## Templates Used (Full Reference Library)
+
+### Always Load (Tier 1)
+- `references/deck_template.md` — slide structure
+- `references/blog_template.md` — article conversion
+- `references/youtube_template.md` — SEO + packaging
+- `references/email_template.md` — newsletter + executive summary
+
+### Full Run (Tier 2)
+- `references/twitter_thread_template.md` — thread structure
+- `references/linkedin_article_template.md` — thought leadership
+- `references/shorts_template.md` — 60-sec clips
+- `references/stage_talk_template.md` — live speaking
+- `references/live_session_template.md` — webinar / 121 / workshop
+
+### Premium (Tier 3)
+- `references/animation_template.md` — visual storytelling, scene-by-scene
+- `references/demo_template.md` — interactive demo, show-and-tell
+- `references/distribution_matrix.md` — channel map, scheduling calendar
+
+### Publishing Guide
+- `references/publishing_checklist.md` — full run checklist, day-by-day calendar
 
 ## Final Stage: Delivery
 Human reviews all deliverables:
