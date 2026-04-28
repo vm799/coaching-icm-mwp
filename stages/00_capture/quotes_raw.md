@@ -2,6 +2,51 @@
 
 ---
 
+## 2026-04-28 — Hardik Pandya, "Large Companies Can't Operate at the Frontier"
+
+### "Your moat was real. It's draining fast."
+**Attribution:** Hardik Pandya (paraphrase) — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Enterprise angle:** Opens any board-level talk. The moat (distribution, brand, capital) isn't protection anymore.
+
+---
+
+### "A decision at Cursor took a conversation, not a planning cycle."
+**Attribution:** Hardik Pandya — cite
+**Signal strength:** ⭐⭐⭐⭐⭐
+**Enterprise angle:** Speed = context loop speed. ICM/MWP builds this inside enterprises.
+
+---
+
+### "Every sharp edge is gone."
+**Attribution:** Hardik Pandya — cite (context: customer feedback filtered through 5 layers)
+**Signal strength:** ⭐⭐⭐⭐⭐
+**V's reframe:** This is a context degradation problem. ICM preserves the sharp edge.
+**Enterprise angle:** Information filtering = context loss = decisions made on stale data.
+
+---
+
+### "Your need to look like you have it together prevents you from getting it together."
+**Attribution:** Hardik Pandya — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Enterprise angle:** Immune system / governance theatre. Bold line for enterprise talks.
+
+---
+
+### "You operate on theory while competitors operate on evidence."
+**Attribution:** Hardik Pandya — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Enterprise angle:** Perfect closing line for enterprise talk. Contrasts filtered context vs raw signal.
+
+---
+
+### "A sharp knife and a dull knife look the same in the drawer. The difference shows up when you need to cut."
+**Attribution:** Hardik Pandya — cite
+**Signal strength:** ⭐⭐⭐⭐⭐
+**Enterprise angle:** Tools aren't the differentiator — the context system around them is.
+
+---
+
 ## 2026-04-28
 
 ### "In a world where answers are cheap, questions are precious."

@@ -44,6 +44,16 @@ Format: Priority (1=urgent) | Topic | Stream | Source | Notes
 
 ## Priority 2 — Strong Candidates
 
+### "Why large organisations lose to small teams — and how to fight back"
+- **Stream:** Enterprise (primary) — board, C-suite, product leaders
+- **Source:** Hardik Pandya article + Cursor/Copilot case study (2026-04-28)
+- **Hook:** "Twelve people beat Microsoft. Not because they were smarter. Because they had a tighter context loop."
+- **Enterprise angle:** Incentive inversion + immune system + blunted edge = three reasons large orgs can't operate at frontier. ICM/MWP = the fix.
+- **Case study ready:** YES — Cursor ($1B, 12 people) vs GitHub Copilot (Microsoft, full moat)
+- **Soundbites ready:** YES (5 Pandya quotes, all ⭐⭐⭐⭐⭐)
+- **Systems thinking:** Reinforcing loops (narrators → narrators), balancing loops gone wrong (immune system), delays (frontier gap), leverage points (context architecture)
+- **Notes:** Strong standalone enterprise video AND enriches every other enterprise topic. Attribution to Pandya required.
+
 ### "AI is 70 years old — and why that matters now"
 - **Stream:** Enterprise (intro talk) + Teaching (Video 1 of series)
 - **Source:** Instagram capture 2026-04-28
