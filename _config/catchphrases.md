@@ -75,6 +75,119 @@ Pattern: [Hook] + [Why it matters] + [Action implication]
 
 ---
 
+---
+
+## External Validation Soundbites — Cite in Scripts
+
+Organised by use case. Each has attribution. Use in enterprise talks where credibility anchors matter.
+
+---
+
+### Enterprise Talk Openers (Board / C-Suite)
+
+**"Model capabilities aren't the issue. There's a huge gap between what models can provide and the value enterprises are actually extracting."**
+- Attribution: Ashley Kramer, VP Enterprise, OpenAI — cite both Kramer and Molham Aref (RelationalAI, April 2026)
+- Use: Opens any enterprise talk. From OpenAI's own VP. Validates V's entire positioning.
+- Tweet: "OpenAI's VP of Enterprise said it. Not the model. The gap is in context architecture."
+
+**"The AI tools exist. The company brain layer does not yet."**
+- Attribution: Tom Blomfield, YC partner, co-founder of Monzo — YC Summer 2026 RFS
+- Use: Opens Company Brain / ICM positioning talk. V's response: "I've been building it for two years."
+- Tweet: "YC just named the gap. @tomblofeld said 'the company brain layer does not yet exist.' It does. It's called ICM."
+
+**"Your moat was real. It's draining fast."**
+- Attribution: Hardik Pandya, "Large Companies Can't Operate at the Frontier" — cite
+- Use: Opens board-level talk. Contrasts Cursor/Copilot. Urgency without panic.
+- Tweet: "Your distribution moat. Your brand moat. Your capital moat. Draining. Faster than you think."
+
+**"2023 to 2025 was the era of AI copilots. The next era is companies that skip the human entirely and just do the work."**
+- Attribution: Gustaf Alströmer, YC partner — YC Summer 2026 RFS
+- Use: Sets the paradigm shift. "I teach you to build for the next era, not the last one."
+- Tweet: "Copilot era is over. AI-native service era begins. Are you building for 2024 or 2026?"
+
+---
+
+### Architecture Argument (CTO / CPO / VP Engineering)
+
+**"The context layer isn't a supplement to enterprise data — it's the interpretive lens that gives that data meaning."**
+- Attribution: Molham Aref, CEO RelationalAI — cite
+- Use: Frames ICM as interpretive architecture, not a chatbot add-on.
+- Tweet: "Not a search layer. Not a chat UI. The interpretive lens. That's context architecture."
+
+**"Not a search tool. Not a chatbot over documents. A living map of how a company actually works."**
+- Attribution: Tom Blomfield, YC Summer 2026 RFS — cite
+- Use: Pre-empts "isn't this just RAG?" objection. Distinguishes ICM clearly.
+- Tweet: "If your AI strategy is 'chatbot over documents' — that's not a company brain. That's a search box."
+
+**"Editing the output is patching the binary. It works, but it does not improve the compiler."**
+- Attribution: Van Clief & McDermott (2026), p.18 — cite
+- Use: Edit-source principle. Engineers: immediate recognition.
+- Tweet: "Fixing AI output without fixing the source = technical debt. Every time."
+
+**"Bolting AI on top doesn't change what's underneath."**
+- Attribution: Joe Schmidt IV, a16z, April 2026 — cite
+- Use: Addresses "we have AI features" objection. "The metric moves. The organisation doesn't."
+- Tweet: "$400M AI ARR. Same forms-and-approvals engine underneath. Bolt-on AI."
+
+**"+1 for 'context engineering' over 'prompt engineering.' It's a more accurate description of the work."**
+- Attribution: Andrej Karpathy, June 2025 — cite
+- Use: Names what V does. Shifts conversation from prompts to architecture.
+- Tweet: "Karpathy called it. Context engineering. Not prompt engineering. The work is different."
+
+---
+
+### Human + AI Collaboration (CHRO / People Leaders / Board)
+
+**"The intervention pattern confirms that the highest-value human contribution is not execution — it is framing."**
+- Attribution: Van Clief & McDermott (2026), p.16 — cite (52-person practitioner study)
+- Use: Reframes human role in AI pipelines. "Your experts should be framing, not executing."
+- Tweet: "92% of human interventions happen at Stage 1 — framing. Not Stage 3 — doing. That's the finding."
+
+**"A production pipeline where every intermediate output is a readable file is inherently interpretable. There is nothing to explain because nothing was hidden."**
+- Attribution: Van Clief & McDermott (2026), p.4 — cite
+- Use: EU AI Act compliance. Board/legal audience. Glass-box framing.
+- Tweet: "Build transparent by design. Not explainable by retrofit."
+
+**"Stop building opaque systems and then trying to explain them after the fact. Build systems that are inherently interpretable."**
+- Attribution: Rudin (2019) — via Van Clief & McDermott — cite both
+- Use: Pairs with above. Regulatory framing.
+- Tweet: "XAI is a band-aid. Interpretable architecture is the surgery."
+
+---
+
+### Competitive Urgency (CEO / Board)
+
+**"You operate on theory while competitors operate on evidence."**
+- Attribution: Hardik Pandya — cite
+- Use: Closing line for enterprise talk. Contrasts filtered context vs raw signal.
+- Tweet: "Theory vs evidence. Which side of that sentence are you on?"
+
+**"Your need to look like you have it together prevents you from getting it together."**
+- Attribution: Hardik Pandya — cite
+- Use: Governance theatre / immune system talk. Bold line, lands hard.
+- Tweet: "Governance theatre. The performance of having it together while losing ground."
+
+**"While everyone else is building agents, the biggest opportunity might be building the software those agents depend on."**
+- Attribution: Aaron Epstein, YC partner — YC Summer 2026 RFS — cite
+- Use: Positions V's practice as infrastructure play, not tooling play.
+- Tweet: "Everyone races to build agents. Nobody builds what agents run on. That's the gap."
+
+---
+
+### Teaching Stream Openers
+
+**"In a world where answers are cheap, questions are precious."**
+- Attribution: Unknown (heard via Instagram, 2026-04-28 — verify before citing publicly)
+- Use: Questions-over-answers topic. Strong hook for Video 1.
+- Tweet: "AI is the answer machine. That makes questions the premium currency."
+
+**"The folder structure tells it what to do at each step."**
+- Attribution: Van Clief & McDermott (2026), p.1 — cite
+- Use: Accessible entry point to MWP. Non-technical audiences.
+- Tweet: "No framework. No vendor. Just folders. That's the architecture."
+
+---
+
 ## Topic-Specific Soundbites (To Build)
 
 Add as you create each teaching + enterprise script. Structure:
