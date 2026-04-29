@@ -119,6 +119,38 @@ Add every analogy that lands — from talks, videos, conversations, reading.
 
 ---
 
+---
+
+### "Sediment" (context accumulation / why stages reset)
+**Concept:** Context from previous turns accumulates and degrades reasoning quality
+**Analogy:** "Sediment builds in a river. The longer it runs without clearing, the murkier the water. LLMs work the same way — accumulated context from earlier turns clouds reasoning in later ones. ICM stage contracts clear the sediment. Each stage starts with clean, scoped context."
+**Teaching use:** T4 — why ICM stages load selectively, not cumulatively. Better word than "context degradation" for non-technical audiences.
+**Enterprise use:** "Your AI isn't getting worse — it's accumulating sediment. ICM prevents it architecturally."
+**Source:** Software entropy framework (2026-04-29 capture). Connects to Liu et al. (2024) "lost in the middle" finding.
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
+### "Smart Zone vs Dumb Zone" (effective reasoning window)
+**Concept:** LLMs have an effective reasoning limit ~100K tokens regardless of stated context window
+**Analogy:** "Every LLM has a Smart Zone — where it reasons well — and a Dumb Zone — where attention scales quadratically and reasoning fails. The context window claim is marketing. The Smart Zone is the engineering reality. ICM keeps every stage inside the Smart Zone. Monolithic prompts push into the Dumb Zone."
+**Teaching use:** T4 — why selective context loading isn't about saving money, it's about staying in the zone where the model actually works.
+**Enterprise use:** E4 cost case — "You're paying for 100K tokens. The model reasons well on 8K. ICM closes that gap."
+**Source:** Software entropy framework (2026-04-29 capture).
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
+### "Deep module vs shallow module" (ICM stage architecture)
+**Concept:** Deep modules = simple interface, complex implementation contained inside. Shallow = scattered logic, complex interface.
+**Analogy:** "Ousterhout's deep module: simple interface, complex internals hidden. A shallow codebase scatters logic across dozens of files — the agent jumps around and loses coherence. A deep module wraps all that logic behind one clean boundary. ICM stages are deep modules: one input spec (CONTEXT.md), one output contract, all logic contained. The agent owns the implementation. The human owns the interface."
+**Teaching use:** T5/T6 — maps SWE principle (Ousterhout) directly to ICM architecture.
+**Enterprise use:** "Your AI fails on shallow systems. Deep module design = the AI can reason without getting lost."
+**Source:** John Ousterhout, "A Philosophy of Software Design" (cited in software entropy framework 2026-04-29). Cite Ousterhout directly.
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
 ## Template: Add New Analogy
 
 ```markdown

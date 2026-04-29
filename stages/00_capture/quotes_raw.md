@@ -213,6 +213,22 @@
 
 ---
 
+## 2026-04-29 — Software Entropy Framework (author unknown — do not cite directly)
+
+### "As AI tools become ubiquitous, the true competitive advantage is no longer the ability to generate code, but the ability to apply rigorous engineering to a non-deterministic process."
+**Attribution:** Unknown author — use as V's own framing, not a direct citation
+**Signal strength:** ⭐⭐⭐⭐
+**Teaching angle:** "Vibe coding" foil for ICM. Use as V's argument, sourced independently.
+
+---
+
+### "Sediment is the accumulation of tokens and context from previous turns that strains the LLM's attention."
+**Attribution:** Unknown author — concept only, cite Liu et al. (2024) for academic backing
+**Signal strength:** ⭐⭐⭐⭐⭐ — "sediment" is the best teaching word for context degradation found so far
+**Use:** T4 teaching script. "ICM prevents sediment. Each stage starts clean."
+
+---
+
 ## 2026-04-29 — Van Clief & McDermott, "Interpretable Context Methodology" (MWP/ICM Paper)
 
 ### "The folder structure tells it what to do at each step."
