@@ -63,6 +63,20 @@ Format: Priority (1=urgent) | Topic | Stream | Source | Notes
 
 ---
 
+### "Agentic commerce: what UCP means for enterprise AI teams"
+- **Stream:** Enterprise (primary) — CTO, CPO, product leaders, digital commerce
+- **Source:** Ken Huang, Agentic AI Substack, April 2026
+- **Hook:** "Checkout is the final mile of commerce. It is not commerce. The same is true for your AI."
+- **Enterprise angle:** $1.2T US ecommerce market restructuring around AI agents. UCP = context negotiation protocol, not checkout API. ICM/MWP is the internal architecture equivalent.
+- **ICM connection:** UCP's "ugly middle" (product data, rules, fulfillment, loyalty, fraud) = same problem ICM solves for enterprise AI. Context architecture is the competitive layer.
+- **Data ready:** $1.2T market, 70.22% cart abandonment, Walmart 1/3 conversion rate in ACP test, Amazon/Meta/Microsoft/Stripe/Salesforce all joined UCP Tech Council Apr 24 2026
+- **Soundbites ready:** YES — "Checkout is the final mile. Not commerce." + "Universal but not uniform." + Huang "ugly middle" quote
+- **Systems thinking:** Protocol wars → governance wars → context layer ownership. Reinforcing loop: whoever sets the context standard shapes the value extraction.
+- **EU AI Act angle:** AP2 cryptographic mandates = agent non-repudiation. Parallel to ICM audit trail.
+- **Notes:** New vertical for enterprise stream. Works as standalone "future of commerce" talk OR as concrete illustration of context architecture problem. Strong for digital commerce, retail, fintech audiences.
+
+---
+
 ## Priority 2 — Strong Candidates
 
 ### "The AI Value Gap: why enterprises pay for AI and don't get the value"

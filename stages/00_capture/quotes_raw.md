@@ -225,3 +225,36 @@
 **Attribution:** McIlroy (1978) — via Van Clief & McDermott [1]. Cite both.
 **Signal strength:** ⭐⭐⭐⭐⭐ — classic, citable, universal
 **Teaching angle:** Single-responsibility principle applied to AI stages. Foundation of MWP.
+
+---
+
+## 2026-04-29 — Ken Huang, "Google's UCP Just Won Agentic Commerce" (Substack)
+
+### "Checkout is the final mile of commerce. It is not commerce."
+**Attribution:** Ken Huang, Agentic AI Substack, April 2026 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Enterprise angle:** Reframe for any AI vertical. "Inference is the final mile of AI. It is not AI." Context architecture is the real work.
+**V's reframe:** "Prompt engineering is the final mile. Context engineering is the pipeline."
+
+---
+
+### "The hard part is allowing an AI agent to ask a merchant: 'Can this user buy these three products, with this coupon, shipped to this address, using this wallet, with loyalty benefits applied, while preserving the merchant's rules, tax logic, fraud stack, fulfillment constraints, and customer relationship?'"
+**Attribution:** Ken Huang, Agentic AI Substack, April 2026 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐
+**Enterprise angle:** Concrete definition of the context architecture problem. Not checkout — context negotiation.
+**ICM connection:** This is the L0-L4 problem stated in commerce terms. The agent needs structured context (merchant rules, loyalty schema, fulfillment constraints) — not just a product feed.
+
+---
+
+### "Commerce is universal, but not uniform."
+**Attribution:** Ilya Grigorik (Shopify) — via Ken Huang article. Cite both.
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**V's reframe:** "AI is universal, but enterprise context is not uniform. That's the architecture problem."
+**Enterprise angle:** Opens any talk on enterprise AI variance: same model, different organisations = completely different context requirements.
+
+---
+
+### "The agentic commerce war has moved from 'which spec has the best launch demo?' to 'which governance body can coordinate the largest number of mutually suspicious giants?'"
+**Attribution:** Ken Huang, Agentic AI Substack, April 2026 — cite
+**Signal strength:** ⭐⭐⭐⭐
+**Enterprise angle:** Protocol wars → governance wars. Same pattern applies to enterprise AI standards. Whoever governs the context layer governs the value.

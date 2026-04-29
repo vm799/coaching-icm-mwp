@@ -214,6 +214,93 @@ Use these when talking to boards or CFOs:
 
 ---
 
+## Agentic Commerce — The $1.2T Context Architecture Problem
+
+**Source:** Ken Huang, Agentic AI Substack, "Google's UCP Just Won Agentic Commerce", April 29 2026
+**Strength:** ⭐⭐⭐⭐⭐ — $1.2T market, BigTech validation, direct ICM connection
+
+### The Setup
+April 24, 2026: Amazon, Meta, Microsoft, Salesforce, Stripe joined Google's Universal Commerce Protocol (UCP) Tech Council alongside founding members Google, Shopify, Etsy, Target, Wayfair. 10-member body now spans search, marketplaces, social commerce, enterprise software, payments, and retail infrastructure.
+
+**Scale:** US ecommerce $1.2337T in 2025. 16.4% of total US retail. Cart abandonment: 70.22%.
+
+### ACP vs UCP = Prompt Engineering vs Context Engineering
+
+| ACP (OpenAI + Stripe) | UCP (Google-led) |
+|----------------------|-----------------|
+| Start from checkout | Start from capability discovery |
+| One flow | Negotiate, then transact |
+| Works for simple paths | Handles the ugly middle |
+| "Can ChatGPT complete this checkout?" | "What can this agent and this merchant safely do together?" |
+
+**ACP stumbled:** Walmart conversion rate inside ChatGPT = 1/3 of click-out rate. OpenAI revamped away from Instant Checkout by March 2026.
+
+**V's frame:** ACP = prompt engineering (what you say right now). UCP = context engineering (what the agent knows, what the merchant declares, what gets negotiated at the boundary). Same argument. Different domain.
+
+### The "Ugly Middle" — V's ICM Argument, Commerce Edition
+
+Ken Huang:
+> "Checkout is the final mile of commerce. It is not commerce. Real commerce is the ugly middle: product data, variants, taxes, inventory, shipping promises, fraud signals, loyalty accounts, personalized discounts, refunds, partial shipments, substitutions, return windows, marketplace rules, payment routing, regional availability, customer support, and merchant liability."
+
+**V's reframe for enterprise talks:**
+> "Inference is the final mile of enterprise AI. It is not AI. Real AI deployment is the ugly middle: business rules, data schemas, access controls, audit requirements, escalation paths, domain knowledge, organisational context, and human review gates. That's what ICM/MWP builds. Not the inference — the context architecture around it."
+
+### The Context Negotiation Problem
+
+Huang quotes the commerce problem precisely:
+> "Can this user buy these three products, with this coupon, shipped to this address, using this wallet, with loyalty benefits applied, while preserving the merchant's rules, tax logic, fraud stack, fulfillment constraints, and customer relationship?"
+
+**This is an ICM/L0-L4 problem stated in commerce terms:**
+- L0 (Global): merchant's non-negotiables (tax, liability, fraud floor)
+- L1 (Domain): merchant's business rules (loyalty scheme, discounts, fulfillment constraints)
+- L2 (Stage): this transaction's specific constraints (cart state, shipping address, payment method)
+- L3 (Config): merchant's product taxonomy, substitution rules, return policy
+- L4 (Working): this specific order, this specific session, this specific agent
+
+Without this context architecture, the agent either reconstructs it from scratch (burning tokens) or hallucinates it (catastrophic). Same argument V already makes — now validated by $1.2T market.
+
+### AP2 Mandates = ICM Audit Trail (Different Domain)
+
+Google's Agent Payments Protocol (AP2): cryptographic signed "Mandates" prove what a user authorised.
+- Intent Mandate: what the user asked the agent to do
+- Cart Mandate: what the agent was authorised to purchase
+- Non-repudiation: who authorised what, when, with what limits
+
+**V's parallel:**
+- ICM stage contracts: what each stage was authorised to produce
+- Git-versioned outputs: what the agent decided, when, in what context
+- Human review gates: who approved what before downstream execution
+
+Same governance principle. Commerce implementation = AP2. Enterprise AI implementation = ICM.
+
+### Shopify Quote — Universal But Not Uniform
+
+Ilya Grigorik (Shopify distinguished engineer):
+> "Commerce is universal, but not uniform. Payment rules, discount stacking, and fulfillment permutations are not edge cases — they are the emergent reality of retail."
+
+**V's reframe:**
+> "AI is universal, but enterprise context is not uniform. Your fiscal calendar isn't Amazon's. Your risk tolerance isn't Google's. Your domain vocabulary isn't any model's default. That non-uniformity is the architecture problem ICM solves."
+
+### Talk Framings
+
+**For CPO/CDO (digital commerce):**
+> "Every major commerce player on the planet just joined a protocol designed to solve one problem: how does an AI agent negotiate the full complexity of a transaction — not just the checkout, but the rules, the context, the constraints. That's the architecture problem your AI teams are also solving. ICM/MWP is the internal version of UCP."
+
+**For CTO:**
+> "UCP won the agentic commerce standards war by solving context negotiation, not checkout. Your enterprise AI won't win by solving inference — it'll win by solving context architecture. Same principle, different domain."
+
+**For Board (market sizing):**
+> "$1.2 trillion in US ecommerce. 70% cart abandonment. The protocol that wins is the one that handles complexity — not the one with the best demo. In enterprise AI, the same dynamic plays out. The architecture that handles the ugly middle wins."
+
+### Key Data Points
+- $1.2337T: US ecommerce 2025 (Census Bureau, March 2026)
+- 70.22%: average cart abandonment rate (Baymard Institute, 50-study meta-analysis)
+- 1/3: Walmart ChatGPT Instant Checkout conversion vs click-out (Walmart EVP Daniel Danker)
+- Apr 24, 2026: Amazon, Meta, Microsoft, Salesforce, Stripe joined UCP Tech Council
+- UCP transport support: REST, MCP, A2A, embedded — not Google-only
+
+---
+
 ## EU AI Act Compliance Architecture (MWP/ICM Paper)
 
 **Source:** Van Clief & McDermott (2026), "Interpretable Context Methodology", Section 2.3 + 5.3
