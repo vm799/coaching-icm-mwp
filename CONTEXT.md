@@ -1,11 +1,12 @@
 # Root CONTEXT — Layer 1 (Workspace Routing)
 
 ## "Where am I?" (Workspace Identity)
-Coaching content factory. Dual-stream video series production:
-- **Teaching Stream:** ICM/MWP zero-to-hero (10 videos × 30min)
-- **Enterprise Stream:** AI safety leadership (10 videos × 30min)
+Coaching content factory. Three-stream video series production:
+- **Teaching Stream:** ICM/MWP zero-to-hero (10 videos × 30min) — audience: BAs, managers, non-technical
+- **Enterprise Stream:** AI safety leadership (10 videos × 30min) — audience: C-suite, board
+- **Technical Stream:** AI-native engineering (10 videos × 30min) — audience: developers, technical leads, engineers
 
-Both produce scripts → multiplied to: speak/deck/blog/video/animation.
+All three streams produce scripts → multiplied to: speak/deck/blog/video/animation.
 
 ## "Where do I go?" (Stage Routing)
 User brings a **topic** (e.g., "Token efficiency and why it matters").
@@ -42,8 +43,9 @@ Pipeline routes it:
 - YouTube thumbnail + description
 
 ## Configuration (Layer 3)
-- `_config/teaching-voice.md` → Tone for learning content
-- `_config/enterprise-voice.md` → Tone for executive content
+- `_config/teaching-voice.md` → Tone for learning content (BAs, managers)
+- `_config/enterprise-voice.md` → Tone for executive content (C-suite, board)
+- `_config/technical-voice.md` → Tone for engineering content (developers, technical leads)
 - `_config/icm-mwp-framework.md` → Reference knowledge (static)
 - `_config/catchphrases.md` → Enterprise soundbites library
 - `_config/systems-thinking.md` → Meta-lens: load during Stage 03 for all scripts

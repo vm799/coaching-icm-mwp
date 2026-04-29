@@ -6,6 +6,64 @@ Format: Priority (1=urgent) | Topic | Stream | Source | Notes
 
 ---
 
+## Technical Stream — Full Series (10 Videos)
+
+**Audience:** Developers, technical leads, engineers building with AI.
+**Source:** Software entropy framework (2026-04-29) + SWE precedents (Ousterhout, Pragmatic Programmer, Brooks, Evans, McIlroy)
+**Status:** All 10 topics ready for Stage 01. Research brief = full technical capture file.
+
+### Tech-1: "Vibe coding is a trap: software entropy in the AI era"
+- **Hook:** "Vibe coding offers an illusion of speed. Architecture is the primary constraint on AI reasoning. Ignored code is rotting code."
+- **Core:** Software entropy (Pragmatic Programmer), ball of mud, bounty of modernization
+- **Research:** Hunt & Thomas (entropy), Karpathy (vibe coding Feb 2025)
+
+### Tech-2: "Context engineering for engineers: Smart Zone, sediment, and selective loading"
+- **Hook:** "The context window is the claim. The Smart Zone is the reality."
+- **Core:** Smart Zone (~100K effective), sediment clearing, ICM as architectural solution
+- **Research:** Liu et al. (2024) "lost in the middle", Van Clief Figure 3, Van Clief sediment
+
+### Tech-3: "Deep modules for agentic codebases: the gray box strategy"
+- **Hook:** "Human owns the interface. Agent owns the implementation. That's the gray box."
+- **Core:** Ousterhout deep/shallow modules, gray box, Quiz Scoring Service example
+- **Research:** Ousterhout "A Philosophy of Software Design" (2018)
+
+### Tech-4: "AI-native TDD: how to stop the cheating LLM"
+- **Hook:** "The test isn't for you. It's for the LLM that will try to cheat it."
+- **Core:** Red-Green-Refactor enforced, cheating LLM failure mode, TDD as Smart Zone preserver
+- **Research:** Beck "Test-Driven Development: By Example" (2002)
+
+### Tech-5: "TypeScript + AI: types as deterministic safety net"
+- **Hook:** "The LLM produces what you accept. TypeScript decides what you accept."
+- **Core:** Structural feedback, typed stage interfaces, tradeoff analysis (strict vs loose)
+- **Research:** TypeScript docs, typed interface pattern for MWP stages
+
+### Tech-6: "The Ralph Wiggum loop: AFK autonomy without the chaos"
+- **Hook:** "Plan, Execute, Clear. The Clear step is the one everyone skips. It's also the one that saves the project."
+- **Core:** Three-step loop, Memento management, sediment prevention, context-fresh-per-task
+- **Research:** Memento (film) as metaphor, ICM stage pipeline as implementation
+
+### Tech-7: "Tracer bullets and vertical slices: why AI agents code horizontally and why that's wrong"
+- **Hook:** "Horizontal coding delays feedback. Vertical slices accelerate it."
+- **Core:** Tracer bullets (Pragmatic Programmer), feature-complete thin paths, feedback earliness
+- **Research:** Hunt & Thomas "tracer bullets", feature slicing pattern
+
+### Tech-8: "Ubiquitous language in AI systems: your glossary is your codebase's constitution"
+- **Hook:** "If the agent and the human use different words for the same thing, the codebase will too."
+- **Core:** DDD ubiquitous language, markdown glossary, Grill Me / shared design concept (Brooks)
+- **Research:** Evans "Domain-Driven Design" (2003), Brooks "Mythical Man-Month" (1975)
+
+### Tech-9: "MWP as software architecture: Unix pipes, deep modules, and the engineer's path"
+- **Hook:** "I didn't invent this. I inherited 50 years of SWE wisdom and applied it to AI."
+- **Core:** Full SWE lineage table, engineer's path (gray box), ICM as architecture not framework
+- **Research:** Van Clief & McDermott (2026), McIlroy, Ousterhout, Evans, Shaw & Garlan
+
+### Tech-10: "Building AI-native pipelines: live demo from vibe coding to production"
+- **Hook:** "Software fundamentals — types, tests, architecture — matter more now than they ever did."
+- **Core:** Full pipeline live demo, Stage 00-04 walkthrough, from entropy to AI hero
+- **Research:** Full repo as demo, all prior technical series videos as foundation
+
+---
+
 ## Priority 1 — Ready for Stage 01
 
 ### "Company Brain: what YC says doesn't exist yet — and how ICM builds it"
