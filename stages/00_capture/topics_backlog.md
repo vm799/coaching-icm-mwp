@@ -8,6 +8,19 @@ Format: Priority (1=urgent) | Topic | Stream | Source | Notes
 
 ## Priority 1 — Ready for Stage 01
 
+### "Company Brain: what YC says doesn't exist yet — and how ICM builds it"
+- **Stream:** Enterprise (primary) — CTO, CEO, board, investors
+- **Source:** YC Summer 2026 RFS, Tom Blomfield (#4: Company Brain), Diana Hu (#15: AI OS for Companies)
+- **Hook:** "YC just published 15 problems they'll fund. Problem 4 is called 'Company Brain.' Tom Blomfield — co-founder of Monzo — wrote: 'The AI tools exist. The company brain layer does not yet.' I've been building it for two years."
+- **Enterprise angle:** YC's #4 describes ICM exactly: structured knowledge, executable skills file for AI, living map of how the company works. V has the answer. The market doesn't know it yet.
+- **Teaching angle:** What "Company Brain" is technically: L0-L4 context hierarchy. CLAUDE.md = the skills file. Stage contracts = the map.
+- **Soundbites ready:** YES — Blomfield quote is ⭐⭐⭐⭐⭐
+- **Market validation:** YC = the most credible signal in tech startup funding. This is investor-grade positioning.
+- **Systems thinking:** Company Brain = feedback loop closure. Open loop (scattered knowledge) → closed loop (queryable, agent-executable knowledge). Diana Hu: "turns a company from an open loop into a closed loop."
+- **Notes:** STRONGEST EXTERNAL VALIDATION V HAS RECEIVED. Lead enterprise talks with this. Open: "YC tells founders what to build. They just described my practice."
+
+---
+
 ### "Why questions matter more than answers in the AI age"
 - **Stream:** Both (teaching + enterprise)
 - **Source:** Instagram video capture 2026-04-28

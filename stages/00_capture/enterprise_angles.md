@@ -214,6 +214,79 @@ Use these when talking to boards or CFOs:
 
 ---
 
+## YC Summer 2026 RFS — "The Company Brain Layer Does Not Exist Yet"
+
+**Source:** YC Summer 2026 Request for Startups — Tom Blomfield (#4), Diana Hu (#15), Gustaf Alströmer (#2), Aaron Epstein (#12)
+**Strength:** ⭐⭐⭐⭐⭐ — YC is the most credible signal in tech. This is investor-grade validation of V's entire practice.
+
+### The Core Finding
+
+YC published 15 problems they will fund. Two of them describe ICM/MWP precisely:
+
+**#4 (Company Brain) — Tom Blomfield:**
+> "Every company has critical know-how scattered everywhere. In people's heads, in old email threads, in Slack, in support tickets. The company works because humans vaguely remember where that knowledge is. AI agents cannot operate like that. [The needed system] pulls knowledge out of every fragmented source, structures it, keeps it current, and turns it into an executable skills file for AI. Not a search tool. Not a chatbot over documents. A living map of how a company actually works. Every company in the world will need one. The AI tools exist. The company brain layer does not yet."
+
+**This is ICM.** CLAUDE.md = the executable skills file. L0-L4 hierarchy = the structured knowledge. Stage contracts = the living map. V has been building this for two years.
+
+**#15 (AI OS for Companies) — Diana Hu:**
+> "The best AI-native companies have made their entire company queryable. This turns a company from an open loop into a closed loop. The product that connects all this context into a single intelligence layer does not exist yet."
+
+ICM is the lightweight, filesystem-native version of this. No brutal integration work. Plain text + git.
+
+### How to Use in Enterprise Talks
+
+**Opening (any enterprise talk):**
+> "YC tells founders what to build. They do this because they have pattern-matched across thousands of companies and they know where the value is going. Their Summer 2026 list has 15 items. Number 4 is called 'Company Brain.' Tom Blomfield — who co-founded Monzo — wrote: 'The AI tools exist. The company brain layer does not yet.' I've been building it for two years. That's what we're here to talk about."
+
+**The objection killer (when exec says "we have AI tools"):**
+> "YC's exact framing: 'Not a search tool. Not a chatbot over documents. A living map of how a company actually works.' The tools exist. What most organisations are missing is the context architecture that makes those tools useful. That's the company brain. That's what ICM builds."
+
+**For the systems thinking frame:**
+> "Diana Hu calls it closing the loop. Right now your organisation is an open loop — decisions made on scattered, filtered, degraded knowledge. ICM closes it. Every piece of knowledge structured, current, and executable by the agents and humans who need it."
+
+### YC's Paradigm Shift (What It Signals About AI Perception)
+
+YC is betting on a specific perception shift:
+
+| Old perception (2023-25) | New perception (2026+) |
+|--------------------------|----------------------|
+| AI as tool (copilot) | AI as system designer |
+| Model capability is the bottleneck | Domain knowledge is the bottleneck |
+| Prompt engineering | Context architecture |
+| Augment human work | Replace service delivery entirely |
+| Software moat | Knowledge structure moat |
+| Open loop organisations | Closed loop organisations |
+
+**Gustaf Alströmer (YC):** "2023 to 2025 was the era of AI copilots. The next era is companies that skip the human entirely and just do the work."
+
+**Aaron Epstein (YC):** "While everyone else is building agents, the biggest opportunity might be building the software those agents depend on."
+
+**V's positioning:**
+> "While everyone is hiring AI prompt engineers, I design the context architecture their prompts live inside. That's the next layer. That's what YC just said will produce generational companies."
+
+### The Market Signal for V's Consulting
+
+YC is signalling to investors that the Company Brain / context architecture layer is:
+1. Unsolved at enterprise scale
+2. Needed by every company in the world
+3. Solvable NOW (the AI tools exist; the architecture layer doesn't)
+4. Worth funding at generational scale
+
+V doesn't need funding. V is a consultant who builds this layer. The YC signal de-risks V's proposition entirely. When a CTO says "is this a real need?" — YC says yes, publicly, backed by check-writing capacity.
+
+### Talk Framings Per Role
+
+**For CEO:**
+> "YC just told the world's best founders what to build. Company Brain is number 4 on the list. Tom Blomfield wrote: 'Every company in the world will need one.' The question is whether you build it or wait for someone to sell it to you."
+
+**For CTO:**
+> "The bottleneck in enterprise AI is no longer model capability. YC said it explicitly: it's domain knowledge. The company brain layer. I can show you what that looks like built on ICM/MWP — production-ready, audit-compliant, zero vendor lock-in."
+
+**For Board:**
+> "The investors writing checks into the next generation of AI companies are looking for two things: Company Brain (#4) and the AI OS for companies (#15). Both describe the same architectural gap. Both describe what ICM builds. This isn't a future bet — it's current practice, now validated by the most credible signal in tech."
+
+---
+
 ## Agentic Commerce — The $1.2T Context Architecture Problem
 
 **Source:** Ken Huang, Agentic AI Substack, "Google's UCP Just Won Agentic Commerce", April 29 2026

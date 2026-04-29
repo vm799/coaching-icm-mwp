@@ -2,6 +2,56 @@
 
 ---
 
+## 2026-04-28 — YC Summer 2026 RFS (via The VC Corner / Ruben Dominguez)
+
+### "Every company has critical know-how scattered everywhere. In people's heads, in old email threads, in Slack, in support tickets. The company works because humans vaguely remember where that knowledge is. AI agents cannot operate like that."
+**Attribution:** Tom Blomfield (YC partner, Monzo co-founder), YC Summer 2026 RFS — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**V's note:** This IS the ICM problem statement. Blomfield is describing exactly what V solves.
+**Enterprise angle:** Opens any talk on Company Brain / ICM positioning.
+
+---
+
+### "The AI tools exist. The company brain layer does not yet."
+**Attribution:** Tom Blomfield, YC Summer 2026 RFS — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**V's reframe:** "The tools exist. The context architecture does not yet — unless you're building with ICM."
+**Enterprise angle:** Strongest possible market positioning. YC says the gap exists. V fills it.
+
+---
+
+### "Not a search tool. Not a chatbot over documents. A living map of how a company actually works."
+**Attribution:** Tom Blomfield, YC Summer 2026 RFS — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**V's note:** Exact description of ICM vs RAG/chatbot distinction. Use to pre-empt "isn't this just a chatbot?" objection.
+**Enterprise angle:** Board/C-suite level. Distinguishes V's practice from commodity AI tooling.
+
+---
+
+### "The best AI-native companies have made their entire company queryable. Every meeting recorded. Every ticket tracked. Every customer interaction captured and legible to an intelligence layer that learns from it. This turns a company from an open loop into a closed loop."
+**Attribution:** Diana Hu (YC partner), YC Summer 2026 RFS — cite
+**Signal strength:** ⭐⭐⭐⭐⭐
+**V's reframe:** "Open loop → closed loop. That's the systems thinking frame. ICM closes the loop."
+**Enterprise angle:** CEO/CTO level. Connects to systems thinking meta-lens V uses throughout series.
+
+---
+
+### "2023 to 2025 was the era of AI copilots. The next era is companies that skip the human entirely and just do the work."
+**Attribution:** Gustaf Alströmer (YC partner), YC Summer 2026 RFS — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**V's note:** Defines the era V is teaching into. "I teach you to build for the next era, not the last one."
+**Enterprise angle:** Paradigm shift framing for any enterprise talk. Sets urgency.
+
+---
+
+### "While everyone else is building agents, the biggest opportunity might be building the software those agents depend on."
+**Attribution:** Aaron Epstein (YC partner), YC Summer 2026 RFS — cite
+**Signal strength:** ⭐⭐⭐⭐⭐
+**V's reframe:** "While everyone else builds agents, I build the context those agents depend on. That's ICM."
+**Teaching angle:** Positions V's methodology as infrastructure, not just tooling.
+
+---
+
 ## 2026-04-28 — Molham Aref / RelationalAI, "Beyond Context: Closing the AI Value Gap"
 
 ### "Model capabilities aren't the issue. There's a huge gap between what models can provide and the value enterprises are actually extracting."
