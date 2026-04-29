@@ -347,6 +347,37 @@ Show: context loading per stage, human review gates, sediment cleared between st
 
 ---
 
+### Additions from Third Source Version (2026-04-29)
+
+**"Your code is your bandwidth":**
+> "The quality of your code is your bandwidth; a clean codebase is how you communicate strategic intentions to an agent without getting buried in token noise."
+Use in Tech-1 opener. Replaces "architecture is the primary constraint" with a more accessible frame. Bandwidth = immediately understood by any tech audience.
+
+**"Own the Map / Delegate the Details / Verify the Boundary" — 3-step gray box:**
+1. **Own the Map:** Define the boundaries and deep interfaces
+2. **Delegate the Details:** Let AI churn through the gray box implementation
+3. **Verify the Boundary:** Focus energy on testing the interface, not micromanaging every line
+
+Use in Tech-3 as the practical pattern. Three steps are teachable, repeatable, slide-ready.
+
+**Brooks citation corrected:**
+"The Design of Design" (2010) — not "Mythical Man-Month." The shared design concept quote comes from this book. Update attribution in Tech-8 and stage 01 discovery brief.
+
+**AI Hero's Checklist — Tech-10 slide / course handout:**
+```markdown
+## AI Hero's Checklist — Every Task
+
+- [ ] Grilling: Shared "Design Concept" reached via /grill-me?
+- [ ] Ubiquitous Language: Terminology documented, token noise reduced?
+- [ ] Deep Module Check: Logic hidden behind simple interface, or ball of mud?
+- [ ] Tracer Bullet: Vertical slice (phosphorescent feedback) not horizontal layers?
+- [ ] TDD: Started with "Red" failing test before AI touched implementation?
+- [ ] Context Clearing: Sediment cleared, back in Smart Zone?
+```
+Use as: closing slide for Tech series, course handout, LinkedIn carousel, GitHub README for V's practice methodology.
+
+---
+
 ## Routed to:
 
 - `_config/technical-voice.md` → NEW — technical stream voice + video arc (created)

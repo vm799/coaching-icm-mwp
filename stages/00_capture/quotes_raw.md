@@ -215,6 +215,14 @@
 
 ## 2026-04-29 — Software Entropy Framework (author unknown — do not cite directly)
 
+### "The quality of your code is your bandwidth."
+**Attribution:** Unknown author — use as V's own framing, not a direct citation
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Teaching + Technical angle:** "Clean codebase = communication channel to agent. Messy codebase = noise." Accessible to all technical levels.
+**V's extension:** "Your context architecture is your bandwidth. ICM is how you keep it clean."
+
+---
+
 ### "As AI tools become ubiquitous, the true competitive advantage is no longer the ability to generate code, but the ability to apply rigorous engineering to a non-deterministic process."
 **Attribution:** Unknown author — use as V's own framing, not a direct citation
 **Signal strength:** ⭐⭐⭐⭐
