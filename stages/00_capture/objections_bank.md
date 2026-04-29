@@ -59,6 +59,17 @@ ICM/MWP = WHAT to build (context, routing, design)
 
 They're not competing. But ICM/MWP solves the harder problem.
 
+### New Vocabulary (Add to Script — 2026-04-29)
+
+**"Enterprise sludge"** (Torvalds-inspired, unknown author):
+> "Factories, managers, strategies, builders, and config layers for a one-function task."
+
+Use directly: "LangChain produces enterprise sludge for tasks ICM handles with one folder and three files."
+
+Engineers recognise this immediately. It names the pattern they've seen — and hated — in every over-architected codebase.
+
+**Table 1 from Van Clief & McDermott** backs this claim with 6 specific dimensions where MWP is simpler than frameworks. Cross-reference when engineer asks for evidence, not just opinion.
+
 ---
 
 ## Objection 2: "Why not just use more context / load everything?"

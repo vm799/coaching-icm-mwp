@@ -121,6 +121,26 @@ Add every analogy that lands — from talks, videos, conversations, reading.
 
 ---
 
+### "Enterprise sludge" (LangChain / framework overengineering)
+**Concept:** Overengineered complexity added to simple problems — factories, managers, builders for tasks that need one function
+**Analogy:** "Enterprise sludge: factories, managers, strategies, builders, and config layers for a one-function task. That's what frameworks produce. ICM produces one file."
+**Teaching use:** T9 "Why not LangChain" — name the failure mode precisely before offering the alternative.
+**Enterprise use:** E5 "Framework lock-in" — "Sludge has a maintenance cost. Every layer you didn't need is a layer you'll pay to maintain."
+**Source:** Linus Torvalds-inspired AI coding guidelines (GitHub repo, unknown author), April 2026. "bogus shit detector" taxonomy.
+**Rating:** ⭐⭐⭐⭐⭐ — best single term yet for the LangChain objection
+
+---
+
+### "Voodoo programming" (sediment / unexplained additions)
+**Concept:** Random barriers, loops, helpers, retries added without understanding — the AI equivalent of cargo-cult coding
+**Analogy:** "Voodoo programming: random helpers and retries added because the last patch didn't work. Nobody knows why they're there. Nobody removes them. They accumulate. That's sediment with a name."
+**Teaching use:** Tech-1/Tech-2 — sediment accumulation made vivid. Engineers immediately recognise this pattern.
+**Enterprise use:** "Your AI isn't hallucinating. It's accumulating voodoo from previous failed patches."
+**Source:** Linus Torvalds-inspired AI coding guidelines (unknown author). "bogus shit detector" taxonomy.
+**Rating:** ⭐⭐⭐⭐
+
+---
+
 ### "Tier 0-3 = ICM L0-L4" (external validation of progressive disclosure)
 **Concept:** Independent agent framework (Hermes) converges on identical layered loading pattern to ICM
 **Analogy:** "Every serious agent framework independently rediscovers the same architecture: load only what the current task needs, tier by tier. Hermes calls it Tier 0-3 (category → description → full skill → supporting file). ICM calls it L0-L4. Same principle, independently derived. This isn't a V preference — it's the pattern the field converges on."
