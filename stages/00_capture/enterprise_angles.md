@@ -56,6 +56,21 @@ Microsoft had every traditional moat: distribution, data, brand, capital. None o
 
 ---
 
+### 2. The Immune System — Now With a Named Example
+
+**Live example (a16z, April 2026):** Workday's 10,500-consultant ecosystem (Accenture, Deloitte, PwC, KPMG):
+> "That services economy is arguably a bigger asset than the product itself. It lobbies on Workday's behalf, absorbs customer complaints, and gives the biggest firms in the world a vested interest in keeping Workday installed." — Joe Schmidt IV, a16z
+
+This is Pandya's pattern made concrete. The immune system isn't just governance — it's a paid consulting cartel with 9-figure practices to protect. Same dynamic inside any large enterprise: every gate (legal, IT, procurement, compliance) responds to a real incident. Together they treat change as a foreign body.
+
+**What bolt-on AI looks like inside this immune system:**
+Workday shipped 25+ AI features, $400M AI ARR, growing triple digits. And:
+> "Every Illuminate feature is an additive overlay on the same forms-and-approvals engine... AI ARR can grow triple digits while the underlying product stays exactly what it was."
+
+V's enterprise angle: "Bolt-on AI. The metric moves. The organisation doesn't. The question isn't whether you have AI features. It's whether the architecture underneath can support AI-native workflows."
+
+---
+
 ### 2. The Immune System
 **What it is:** Every gate (legal, risk, brand, compliance, stakeholder alignment) responded to a real incident. Together they treat speed as a foreign body.
 

@@ -98,6 +98,31 @@
 
 ---
 
+## 2026-04-28 — a16z / Joe Schmidt IV, "Workday's Last Workday?"
+
+### "Bolting AI on top doesn't change what's underneath."
+**Attribution:** Joe Schmidt IV, a16z, April 2026 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**V's reframe:** "The question isn't whether you have AI. It's whether the architecture underneath can support it."
+**Enterprise angle:** Applies to any legacy enterprise. HCM is the example; the pattern is universal.
+
+---
+
+### "Every Illuminate feature is an additive overlay on the same forms-and-approvals engine... AI ARR can grow triple digits while the underlying product stays exactly what it was."
+**Attribution:** Joe Schmidt IV, a16z, April 2026 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐
+**V's reframe:** "Bolt-on AI. The metric moves. The organisation doesn't."
+**Enterprise angle:** Names the "we have AI features" objection precisely. Exec buys AI credits; workflow doesn't change.
+
+---
+
+### "That services economy is arguably a bigger asset than the product itself. It lobbies on Workday's behalf, absorbs customer complaints, and gives the biggest firms in the world a vested interest in keeping Workday installed."
+**Attribution:** Joe Schmidt IV, a16z, April 2026 — cite (re: Workday's 10,500-consultant ecosystem)
+**Signal strength:** ⭐⭐⭐⭐ — concrete named example of Pandya's immune system pattern
+**V's use:** Enrich "immune system" section. "This is what Pandya described — made concrete."
+
+---
+
 ## 2026-04-28 — Hardik Pandya, "Large Companies Can't Operate at the Frontier"
 
 ### "Your moat was real. It's draining fast."
