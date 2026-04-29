@@ -211,3 +211,65 @@ Use these when talking to boards or CFOs:
 - **Enriches:** "Questions over answers" topic — the organisations that ask better questions ship faster
 - **Enriches:** "Why not LangChain" topic — LangChain = enterprise immune system; ICM = startup tight loop
 - **New angle:** Information filtering as context degradation — ICM solves the "every sharp edge is gone" problem
+
+---
+
+## EU AI Act Compliance Architecture (MWP/ICM Paper)
+
+**Source:** Van Clief & McDermott (2026), "Interpretable Context Methodology", Section 2.3 + 5.3
+**Strength:** ⭐⭐⭐⭐⭐ — academic paper + EU regulation = board/legal credibility
+
+### The Compliance Problem
+
+EU AI Act (2024), Article 14: high-risk AI systems must maintain human oversight capability, intervention points, and audit trails. Most enterprise AI deployments don't satisfy this by design — they retrofit compliance instrumentation after the fact.
+
+V's angle:
+> "You can bolt compliance onto an AI system after it's built. Or you can design it in from the start. ICM is the second approach. The audit trail isn't a feature — it's the folder structure."
+
+### How MWP/ICM Satisfies Article 14
+
+| EU AI Act Requirement | MWP/ICM Implementation |
+|----------------------|------------------------|
+| Human oversight capability | Mandated review gates at every stage boundary — structural, not optional |
+| Ability to intervene | Human edits permitted at every stage output before downstream execution |
+| Audit trail | Git-versioned plain-text files. Every state captured, timestamped, attributable. |
+| Interpretability | No hidden state. Every intermediate output readable by any stakeholder. |
+| Documentation | CONTEXT.md = simultaneous instruction + documentation (Knuth, 1984) |
+
+### Glass-Box vs Black-Box Architecture
+
+Van Clief & McDermott (2026):
+> "A production pipeline where every intermediate output is a readable file is inherently interpretable. There is nothing to explain because nothing was hidden."
+
+Rudin (2019):
+> "Stop building opaque systems and then trying to explain them after the fact. Build systems that are inherently interpretable."
+
+**V's enterprise angle:**
+> "Black-box AI needs an explanation layer. Glass-box AI IS the explanation. ICM is glass-box by design."
+
+### Practitioner Data: U-Shaped Intervention Pattern
+
+From 52-person community study (Van Clief & McDermott, 2026):
+- 92% of sessions: human intervention at Stage 1 (framing/discovery)
+- 30% at Stage 2 (research)
+- 78% at Stage 3 (script finalisation)
+
+**Enterprise implication:** Human expertise concentrates at framing (92%) and decision-point (78%). The AI handles the middle. This maps directly to Article 14: humans are in the loop where it matters — at the beginning and end.
+
+### Talk Framings
+
+**For Legal/Compliance:**
+> "Show me your AI audit trail."
+> "Here's the git repo. Every decision is a file. Every file has a timestamp. Every review gate has a log."
+
+**For CTO/CISO:**
+> "EU AI Act Article 14: human oversight must be designed in, not bolted on. ICM is the architecture that satisfies this from day one."
+
+**For Board:**
+> "Your regulator doesn't want a dashboard. They want a file they can read. ICM produces that file at every stage."
+
+### Key Data Points for Board Talks
+- EU AI Act in force 2024 — high-risk AI systems face enforcement
+- Rudin (2019): interpretability by design > XAI explanation layers
+- Liu et al. (2024): selective context loading = better outputs AND lower cost
+- Van Clief & McDermott (2026): 52-person community, production-validated, MIT/Edinburgh academic backing

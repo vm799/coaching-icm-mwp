@@ -135,3 +135,93 @@
 
 **Enterprise use:**
 "70 years of theory. 5 years of practical reality. We're at the inflection point, not the beginning."
+
+---
+
+## 2026-04-29 — Van Clief & McDermott, "Interpretable Context Methodology" (MWP/ICM Paper)
+
+### "The folder structure tells it what to do at each step."
+**Attribution:** Van Clief & McDermott (2026), p.1 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Use:** T1/E1 opener. Accessible, memorable. Sets the whole framing.
+
+---
+
+### "A production pipeline where every intermediate output is a readable file is inherently interpretable. There is nothing to explain because nothing was hidden."
+**Attribution:** Van Clief & McDermott (2026), p.4 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Enterprise angle:** EU AI Act compliance. Board-level framing. Rudin connection.
+
+---
+
+### "The simplest viable architecture for this class of problem is one that already exists on every computer: the filesystem."
+**Attribution:** Van Clief & McDermott (2026), p.8 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐
+**Teaching angle:** De-mystify ICM. No exotic tooling. Zero lock-in.
+**Enterprise angle:** Simplicity as a feature. No vendor dependency.
+
+---
+
+### "The most common failure pattern in agentic pipelines is not model capability — it is interface ambiguity between stages."
+**Attribution:** Van Clief & McDermott (2026), p.11 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐
+**Enterprise angle:** Root cause diagnosis. "Your AI isn't failing because the model is bad."
+
+---
+
+### "The intervention pattern confirms that the highest-value human contribution is not execution — it is framing."
+**Attribution:** Van Clief & McDermott (2026), p.16 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Enterprise angle:** ROI argument. Humans add most value at framing (92%) + finalisation (78%).
+
+---
+
+### "Editing the output is patching the binary. It works, but it does not improve the compiler."
+**Attribution:** Van Clief & McDermott (2026), p.18 — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Teaching angle:** Root cause vs symptom fix. Engineers will recognise this immediately.
+**Enterprise angle:** Technical debt framing. Every output fix that doesn't update source = recurring cost.
+
+---
+
+### "The multi-pass compiler does not ask the programmer to trust it. It shows its work at every intermediate step."
+**Attribution:** Van Clief & McDermott (2026), p.19 — cite
+**Signal strength:** ⭐⭐⭐⭐
+**Teaching angle:** Compiler analogy for MWP pipeline (T8). Engineers: instant recognition.
+
+---
+
+### "+1 for 'context engineering' over 'prompt engineering.' It's a more accurate description of the work."
+**Attribution:** Andrej Karpathy, June 2025 — via Van Clief & McDermott [16]. Cite both.
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Enterprise angle:** Opens E2. Shifts conversation from "prompting" to "architecture."
+**Teaching angle:** Names what ICM actually does. Elevates the practice.
+
+---
+
+### "LLMs perform significantly worse when relevant information is buried in the middle of long contexts."
+**Attribution:** Liu et al. (2024) — via Van Clief & McDermott [25]. Cite both.
+**Signal strength:** ⭐⭐⭐⭐⭐
+**Teaching angle:** Technical evidence for selective context loading. Not intuition — research.
+**Enterprise angle:** Cost + quality argument. Bloated context = worse output AND higher bill.
+
+---
+
+### "Stop building opaque systems and then trying to explain them after the fact. Build systems that are inherently interpretable."
+**Attribution:** Rudin (2019) — via Van Clief & McDermott [45]. Cite both.
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Enterprise angle:** EU AI Act. Board-level. "Don't build the black box then retrofit the glass."
+
+---
+
+### "The power of a Unix system comes more from the relationships among programs than from the programs themselves."
+**Attribution:** Kernighan & Pike (1984) — via Van Clief & McDermott [5]. Cite both.
+**Signal strength:** ⭐⭐⭐⭐
+**Teaching angle:** SWE lineage for MWP. Connects ICM to 50 years of engineering precedent.
+
+---
+
+### "Write programs that do one thing and do it well."
+**Attribution:** McIlroy (1978) — via Van Clief & McDermott [1]. Cite both.
+**Signal strength:** ⭐⭐⭐⭐⭐ — classic, citable, universal
+**Teaching angle:** Single-responsibility principle applied to AI stages. Foundation of MWP.

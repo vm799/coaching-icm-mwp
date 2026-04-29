@@ -42,6 +42,27 @@ Format: Priority (1=urgent) | Topic | Stream | Source | Notes
 
 ---
 
+### "Glass-box AI: what boards actually need to see"
+- **Stream:** Enterprise (primary) — board, legal, compliance, CISO
+- **Source:** Van Clief & McDermott (2026), Section 5.3; Rudin (2019); EU AI Act (2024) Article 14
+- **Hook:** "Your regulator doesn't want a dashboard. They want a file they can read."
+- **Enterprise angle:** EU AI Act compliance. Glass-box vs black-box architecture. No XAI retrofitting needed.
+- **Soundbites ready:** YES — Rudin + Van Clief + V's own framing
+- **Data ready:** 52-person practitioner study, Article 14 requirements table
+- **Systems thinking:** Observability = feedback loop health. Can't improve what you can't see.
+- **Notes:** Strong for legal/compliance audience + board. Makes V the EU AI Act practitioner. High differentiation.
+
+### "Don't patch binaries: the edit-source principle for AI"
+- **Stream:** Teaching (engineers/BAs primary)
+- **Source:** Van Clief & McDermott (2026), Section 6.3
+- **Hook:** "Editing the output is patching the binary. It works, but it does not improve the compiler."
+- **Teaching angle:** Root cause vs symptom fix. Where corrections belong in ICM (L3 config, not L4 output).
+- **Enterprise angle:** Technical debt framing. Every output fix that doesn't update source = recurring cost.
+- **Soundbites ready:** YES — "edit source not output" catchphrase
+- **Notes:** Great follow-on after T5/T6. Shows practitioners how to improve the system, not just the output.
+
+---
+
 ## Priority 2 — Strong Candidates
 
 ### "The AI Value Gap: why enterprises pay for AI and don't get the value"

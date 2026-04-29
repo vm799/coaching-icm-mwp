@@ -67,6 +67,58 @@ Add every analogy that lands — from talks, videos, conversations, reading.
 
 ---
 
+---
+
+### "Multi-pass compiler" (MWP pipeline architecture)
+**Concept:** MWP stages = compiler passes. Each transforms intermediate representation.
+**Analogy:** "A compiler doesn't convert source to binary in one shot. It lexes, parses, analyses, optimises, links. Each pass reads the output of the last. MWP is identical: capture → discover → research → script → multiply. Each stage reads the previous stage's output."
+**Teaching use:** T8 — "The compiler and the AI pipeline". Engineers: instant recognition.
+**Enterprise use:** "Your AI pipeline should work like a compiler — show its work at each step."
+**Source:** Van Clief & McDermott (2026), Section 6.1
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
+### "Patching the binary" (edit-source principle)
+**Concept:** Editing AI output without fixing the source = technical debt
+**Analogy:** "If a compiler produces wrong output and you edit the binary directly, it works once. The next time you compile, the bug is back. ICM: every correction belongs in the source — the config, the stage contract, the voice guide. Not the output."
+**Teaching use:** T7 — "Don't patch binaries". Core productivity principle.
+**Enterprise use:** "Every output fix that doesn't update the source is a recurring cost."
+**Source:** Van Clief & McDermott (2026), Section 6.3. Quote: "Editing the output is patching the binary."
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
+### "Glass box vs black box" (AI observability)
+**Concept:** MWP is inherently observable — no explanation layer needed
+**Analogy:** "A black box: you push input in, output comes out. If it's wrong, you guess why. A glass box: every intermediate state is visible. MWP is a glass box by design. Every stage output is a file you can open and read."
+**Teaching use:** T6 — Stage contracts and handoffs.
+**Enterprise use:** E7 — "Glass-box AI: what boards actually need to see." EU AI Act.
+**Source:** Van Clief & McDermott (2026), Section 5.3. Rudin (2019) [45].
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
+### "Tasteable recipe stages" (pipeline observability, non-technical)
+**Concept:** Every pipeline step produces an inspectable intermediate result
+**Analogy:** "Imagine a recipe where every step produces a dish you can taste before adding it to the next. Wrong flavour? Fix it here, not at the end. That's ICM. Every stage output is tasteable: readable, editable, correctable before it feeds downstream."
+**Teaching use:** T4, T8 — for non-engineers. Accessible version of compiler analogy.
+**Enterprise use:** "Readable outputs at each stage = human review at each stage."
+**Source:** Adapted from Van Clief & McDermott (2026) pipeline architecture
+**Rating:** ⭐⭐⭐⭐
+
+---
+
+### "Literate programming" (CONTEXT.md as instruction + documentation)
+**Concept:** Stage contracts are simultaneously instruction for agents and documentation for humans
+**Analogy:** "Donald Knuth's literate programming: code and documentation woven into one document. The CONTEXT.md is this — the agent reads it to know what to do; the human reads it to understand what happened. One file, two audiences, zero ambiguity."
+**Teaching use:** T6 — Stage contracts.
+**Enterprise use:** "No separate documentation. The system documents itself."
+**Source:** Van Clief & McDermott (2026), citing Knuth (1984) [literps citation]
+**Rating:** ⭐⭐⭐⭐
+
+---
+
 ## Template: Add New Analogy
 
 ```markdown
