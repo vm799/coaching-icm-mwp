@@ -2,6 +2,52 @@
 
 ---
 
+## 2026-04-28 — Molham Aref / RelationalAI, "Beyond Context: Closing the AI Value Gap"
+
+### "Model capabilities aren't the issue. There's a huge gap between what models can provide and the value enterprises are actually extracting."
+**Attribution:** Ashley Kramer, VP Enterprise, OpenAI — via Molham Aref article. Cite both.
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**Enterprise angle:** Opens every enterprise talk. From OpenAI's own VP. Validates V's entire positioning.
+
+---
+
+### "The context layer isn't a supplement to enterprise data — it's the interpretive lens that gives that data meaning."
+**Attribution:** Molham Aref, RelationalAI — cite
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**V's reframe:** This is ICM Layer 3 — voice guides, config, framework knowledge. V has been building this.
+**Enterprise angle:** Context is architecture, not augmentation. Board-level framing.
+
+---
+
+### "Without context, the agent must reconstruct knowledge from scratch — burning tokens — or worse: hallucinate it."
+**Attribution:** Molham Aref, RelationalAI — cite
+**Signal strength:** ⭐⭐⭐⭐⭐
+**Enterprise angle:** Cost + risk. Two enterprise fears named in one sentence. ICM solves both.
+
+---
+
+### "AT&T: 27 billion tokens a day for a few hundred agents."
+**Attribution:** Mark Austin, VP AI, AT&T — via Molham Aref article. Cite both.
+**Signal strength:** ⭐⭐⭐⭐⭐ — concrete enterprise cost data
+**Enterprise angle:** Scale problem is already real. V's selective context = the cost lever.
+**Note:** At those numbers, 40% token reduction = ~$Xm saved annually. Worth calculating for enterprise talks.
+
+---
+
+### "The dashboard shows where you've been. The navigation system tells you the best way to get where you want to go."
+**Attribution:** Molham Aref — cite
+**Signal strength:** ⭐⭐⭐⭐ — analogy for analytics vs decision intelligence
+**Enterprise angle:** Traditional analytics = rear-view mirror. ICM-powered agents = navigation. Strong exec framing.
+
+---
+
+### "Foundation Capital called context graphs a trillion-dollar opportunity."
+**Attribution:** Foundation Capital — via Molham Aref. Cite.
+**Signal strength:** ⭐⭐⭐⭐ — market validation, investor-grade
+**Enterprise angle:** Board conversations. "This is where capital is going."
+
+---
+
 ## 2026-04-28 — Hardik Pandya, "Large Companies Can't Operate at the Frontier"
 
 ### "Your moat was real. It's draining fast."

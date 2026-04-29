@@ -44,6 +44,16 @@ Format: Priority (1=urgent) | Topic | Stream | Source | Notes
 
 ## Priority 2 — Strong Candidates
 
+### "The AI Value Gap: why enterprises pay for AI and don't get the value"
+- **Stream:** Enterprise (primary) — CTO, CFO, CPO, board
+- **Source:** Molham Aref / RelationalAI + Ashley Kramer / OpenAI VP Enterprise (April 2026)
+- **Hook:** "Model capabilities aren't the issue. There's a huge gap between what models can provide and the value enterprises are actually extracting." — Ashley Kramer, OpenAI
+- **Enterprise angle:** Three-part gap: missing context, missing decision tooling, missing business-specific training. ICM closes gap 1 (and enables 2 and 3).
+- **Cost data ready:** AT&T 27B tokens/day, MIT $25B savings, Foundation Capital trillion-dollar context opportunity
+- **Soundbites ready:** YES — 5 quotes ⭐⭐⭐⭐⭐ from OpenAI VP + Aref
+- **Systems thinking:** Decision-making under uncertainty = complex system, no counterfactuals, context quality = only lever
+- **Notes:** Strong for board/CFO. Validates V's entire practice with investor + enterprise executive sources. High credibility.
+
 ### "Why large organisations lose to small teams — and how to fight back"
 - **Stream:** Enterprise (primary) — board, C-suite, product leaders
 - **Source:** Hardik Pandya article + Cursor/Copilot case study (2026-04-28)
