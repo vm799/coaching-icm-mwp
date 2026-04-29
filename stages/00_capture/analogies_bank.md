@@ -121,6 +121,36 @@ Add every analogy that lands — from talks, videos, conversations, reading.
 
 ---
 
+### "Football League" (quadratic attention scaling)
+**Concept:** Adding tokens to a context window scales attention quadratically, not linearly
+**Analogy:** "Adding teams to a football league. Two teams: one match. Three teams: three matches. Every new team adds relationships with every existing team — the number explodes. LLMs work the same way. Every new token must relate to every other token already in the window. That's why the Smart Zone has a real ceiling — it's physics, not a product limitation."
+**Teaching use:** Tech-2 — why Smart Zone matters. Non-engineers: use "football league." Engineers: use "O(n²) attention complexity."
+**Enterprise use:** "Context window claims are marketing. The physics are quadratic. ICM keeps every stage inside the curve."
+**Source:** NotebookLM synthesis of software entropy framework (2026-04-29). Underlying concept: transformer attention mechanism.
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
+### "Day Shift / Night Shift" (human-AI division of labour)
+**Concept:** Human owns the Day Shift (planning, alignment, design). AI owns the Night Shift (execution, AFK autonomy).
+**Analogy:** "You are the Day Shift: planning, grilling, aligning, designing interfaces. The AI is the Night Shift: executing, coding, testing — while you sleep. The Day Shift determines whether the Night Shift produces gold or garbage."
+**Teaching use:** Tech-1, Tech-6 — division of labour. Accessible to non-technical audiences too (T7/T8).
+**Enterprise use:** "Your knowledge workers become Day Shift strategists. AI becomes Night Shift executors. The value of the Day Shift goes up, not down."
+**Source:** NotebookLM synthesis (2026-04-29).
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
+### "Phosphorescent feedback" (tracer bullets)
+**Concept:** Tracer bullets leave a visible trail — immediate feedback on whether aim is correct
+**Analogy:** "A tracer round fired in the dark glows as it travels. You can see exactly where your aim is. That's what a vertical slice gives you — a glowing line through every layer of the system, showing whether the architecture holds before you've built everything. Without it, you're firing blind in the dark."
+**Teaching use:** Tech-7 — tracer bullets. Replaces "immediate feedback" with a memorable image.
+**Enterprise use:** "You're building for six months before you know if the architecture works. Tracer bullets compress that to six hours."
+**Source:** NotebookLM synthesis (2026-04-29). Underlying concept: Hunt & Thomas, Pragmatic Programmer.
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
 ### "Sediment" (context accumulation / why stages reset)
 **Concept:** Context from previous turns accumulates and degrades reasoning quality
 **Analogy:** "Sediment builds in a river. The longer it runs without clearing, the murkier the water. LLMs work the same way — accumulated context from earlier turns clouds reasoning in later ones. ICM stage contracts clear the sediment. Each stage starts with clean, scoped context."

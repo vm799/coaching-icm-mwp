@@ -160,7 +160,47 @@ async function runScriptStage(input: StageInput): Promise<StageOutput> { ... }
 
 ---
 
+### The 7 Phases of an AI Session (add to Tech-2 or Tech-6)
+
+Structured session workflow — maps to ICM stages:
+
+1. **System Prompt** — permanent rules of engagement (= CLAUDE.md, L0)
+2. **Exploration** — agent scans repo, builds understanding (= Stage 00 Capture context)
+3. **Alignment (Grilling)** — adversarial phase, shared design concept (= Stage 01 Discovery)
+4. **Implementation** — tactical execution (= Stage 02-03)
+5. **Testing** — feedback loops, verify Green state (= human review gate)
+6. **Automated Review** — fresh agent in its own Smart Zone critiques work (= Stage 03 → Stage 04 gate)
+7. **Context Clearing** — wipe slate, prevent Dumb Zone decay (= stage boundary reset)
+
+**ICM observation:** MWP enforces phases 1-7 architecturally. Each stage = phases 1-7 in miniature. The stage contract IS the system prompt for that phase.
+
+---
+
+### AI-Ready PRD Checklist (add to Tech-8, Stage 01 template)
+
+Output of Grill Me / shared design concept session:
+
+```markdown
+## AI-Ready PRD
+
+- [ ] Problem Statement: What specific pain are we solving?
+- [ ] Solution: High-level architectural fix (not implementation)
+- [ ] User Stories: "As a [role], I want [outcome]" — specific, testable
+- [ ] Implementation Decisions: Which modules change? Which don't?
+- [ ] Testing Decisions: How will we prove this works?
+- [ ] Out of Scope: What are we explicitly NOT doing? (prevents AI going in circles)
+```
+
+**ICM connection:** This IS the Stage 01 discovery brief. V already produces this. Name it explicitly in Tech-8 as the Grill Me output.
+
+---
+
 ### Tech-6: The Ralph Wiggum Loop — AFK Autonomy
+
+**DAG extension — parallel agents:**
+Tasks in Ralph loop organised as a Directed Acyclic Graph (DAG). Independent tasks (no shared state, no blocking dependency) can run in parallel — multiple agents, multiple sandboxes, multiple Smart Zones simultaneously. Convergence at shared review gate.
+
+**ICM mapping:** Multiple Stage 01 discovery briefs can run in parallel for different topics. Stage 03 scripts can run in parallel for Teaching/Enterprise/Technical. Gate = human review before merge.
 
 **The three-step loop:**
 
