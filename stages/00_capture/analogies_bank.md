@@ -121,6 +121,16 @@ Add every analogy that lands — from talks, videos, conversations, reading.
 
 ---
 
+### "Tier 0-3 = ICM L0-L4" (external validation of progressive disclosure)
+**Concept:** Independent agent framework (Hermes) converges on identical layered loading pattern to ICM
+**Analogy:** "Every serious agent framework independently rediscovers the same architecture: load only what the current task needs, tier by tier. Hermes calls it Tier 0-3 (category → description → full skill → supporting file). ICM calls it L0-L4. Same principle, independently derived. This isn't a V preference — it's the pattern the field converges on."
+**Teaching use:** T4 — external validation that ICM's layered loading is architecturally correct, not arbitrary.
+**Enterprise use:** "ICM isn't unique to V. It's what every production agent framework independently builds. V teaches you to build it from first principles."
+**Source:** Ken Huang, "The Skill System Pattern" (Hermes Agent), April 2026 — cite
+**Rating:** ⭐⭐⭐⭐⭐
+
+---
+
 ### "Football League" (quadratic attention scaling)
 **Concept:** Adding tokens to a context window scales attention quadratically, not linearly
 **Analogy:** "Adding teams to a football league. Two teams: one match. Three teams: three matches. Every new team adds relationships with every existing team — the number explodes. LLMs work the same way. Every new token must relate to every other token already in the window. That's why the Smart Zone has a real ceiling — it's physics, not a product limitation."

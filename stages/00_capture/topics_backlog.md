@@ -134,6 +134,17 @@ Format: Priority (1=urgent) | Topic | Stream | Source | Notes
 
 ---
 
+### "Agent skill governance: who controls what your agent can do?"
+- **Stream:** Enterprise (primary) — CISO, CTO, Compliance, AI governance teams
+- **Source:** Ken Huang, "The Skill System Pattern" (Hermes Agent), April 2026
+- **Hook:** "When agents write agents — and skills teach other skills — you need a trust model. Not just for the output. For the capability itself."
+- **Enterprise angle:** Skill trust tiers (built-in vs trusted vs community vs agent-created). Security scanning for agent capabilities. /.well-known/skills as emerging standard (= YC #12 Software for Agents).
+- **Governance frame:** Who wrote this skill? What can it access? Has it been scanned? Most enterprise AI deployments have no answer.
+- **Systems thinking:** Reinforcing loop risk — agent-created skills that teach agents to create more skills. Without governance, capability drift is unbounded.
+- **Notes:** Emerging topic. Field is moving toward skill marketplaces. V's clients need governance framework before they need the marketplace. Strong CISO / legal angle alongside CTO.
+
+---
+
 ### "Agentic commerce: what UCP means for enterprise AI teams"
 - **Stream:** Enterprise (primary) — CTO, CPO, product leaders, digital commerce
 - **Source:** Ken Huang, Agentic AI Substack, April 2026
