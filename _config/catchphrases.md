@@ -174,6 +174,22 @@ Organised by use case. Each has attribution. Use in enterprise talks where credi
 
 ---
 
+### Human Role in AI Systems
+
+**"Skills compound while scripts depreciate. The script is locked to the world it was written in. The skill navigates whatever challenge is current."**
+- Attribution: Unknown author — use as V's framing (do not cite externally)
+- Use: T5/T6 (stage contracts as skills). E8 (systems that improve). Tech-1.
+- V's version: "CONTEXT.md is a skill. Python automation is a script. Skills adapt. Scripts break."
+- Tweet: "Scripts depreciate. Skills compound. Write procedures, not code."
+
+**"The last mile is the quality layer. Models produce volume. They can't yet produce the finish that makes another person trust the work. That gap is the job."**
+- Attribution: Unknown author — use as V's framing
+- Use: Enterprise talks on human-AI collaboration. ICM human review gates = last mile built into architecture.
+- V's version: "Your competitive advantage isn't the model. It's the last mile — the human judgment that makes AI output trustworthy."
+- Tweet: "Last mile logistics: the expensive part that doesn't automate. Same for AI. That's your job now."
+
+---
+
 ### Teaching Stream Openers
 
 **"In a world where answers are cheap, questions are precious."**

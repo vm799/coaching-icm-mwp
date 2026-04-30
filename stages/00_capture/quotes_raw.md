@@ -213,6 +213,25 @@
 
 ---
 
+## 2026-04-30 — "Humans are the last mile of LLMs" (author unknown)
+
+### "Skills compound while scripts depreciate — the script is locked to the world it was written in, the skill navigates whatever challenge is current."
+**Attribution:** Unknown author — use as V's framing, not direct citation
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**V's reframe:** "CONTEXT.md is a skill. Python automation is a script. Skills adapt. Scripts break."
+**Teaching + Technical:** T5/T6. "Write procedures, not code."
+**Enterprise:** E8. "Your AI investment compounds if you invest in skills, not scripts."
+
+---
+
+### "The last mile is the quality layer. Models can produce volume. They can't yet produce the finish that makes another person trust the work. That gap is the job."
+**Attribution:** Unknown author — use as V's framing
+**Signal strength:** ⭐⭐⭐⭐⭐ — PROMOTE TO catchphrases.md
+**V's reframe:** "ICM's human review gates are the last mile built into the architecture."
+**Enterprise:** "Your competitive advantage is the last mile — human judgment that makes AI output trustworthy."
+
+---
+
 ## 2026-04-29 — Software Entropy Framework (author unknown — do not cite directly)
 
 ### "The quality of your code is your bandwidth."
