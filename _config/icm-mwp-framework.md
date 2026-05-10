@@ -159,6 +159,38 @@ coaching-icm-mwp/
 - History is auditable (git log shows evolution)
 - Rollback is possible (revert to prior version)
 
+## Landscape Implication: Repository as Architecture
+
+### The Signal (2026)
+
+The broader AI landscape confirms that framework abstraction is not the only path. A well-designed repository can substitute for parts of agent orchestration by making context routing and execution order obvious from the folder tree.
+
+IBM's watsonx.orchestrate bet (AI-native apps, not AI-enhanced legacy apps) viewed through ICM: the next competitive system is one whose repository makes it obvious how intelligence flows through the work.
+
+### Why This Matters for ICM/MWP
+
+**For enterprise + regulated environments:**
+- Folder-based system = built-in audit trail
+- What context was used: visible from stage CONTEXT.md
+- What changed: visible from git history
+- What got published: visible from output/ folder
+- No separate explainability layer needed — interpretability is architecture
+
+**For technical audiences:**
+- Folder structure = routing logic (no orchestration framework required)
+- Deep modules + clean stage contracts = agent navigability without tooling overhead
+- MWP satisfies the "AI-native repository" requirement independently
+
+### The Positioning Statement
+
+> "Interpretability becomes architecture. The next competitive AI system is one whose repository makes it obvious how intelligence flows through the work."
+
+Use in: Enterprise E-series (glass-box AI), Tech-9 (why not LangChain), any IBM/enterprise talk where regulated AI comes up.
+
+**Connects to:** EU AI Act compliance section (Article 14 human oversight), glass-box framing, Van Clief & McDermott p.4 quote on inherent interpretability.
+
+---
+
 ## Anti-Patterns to Avoid
 
 ### ❌ Monolithic Script

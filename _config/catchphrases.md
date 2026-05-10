@@ -190,6 +190,61 @@ Organised by use case. Each has attribution. Use in enterprise talks where credi
 
 ---
 
+### AI as Operating Model (IBM Think 2026)
+
+**"AI is no longer a feature. It is infrastructure and the operating model."**
+- Attribution: IBM Think 2026 / Mixture of Experts podcast — cite
+- Use: Enterprise opener. Board/C-suite. Validates V's entire positioning.
+- Tweet: "IBM said it at Think 2026. AI is the operating model. Not the feature. Are you building for that?"
+
+**"AI speed is an executive literacy problem. Not a technology problem."**
+- Attribution: V's frame from IBM Think 2026 signal — use as V's version
+- Use: CHRO/L&D talks, teaching pitch, board sessions on transformation speed.
+- Tweet: "The bottleneck isn't the model. It isn't the tools. It's the boardroom. AI speed = executive literacy."
+
+**"Transformation is no longer modular. It is holistic — and has to happen top-down and bottom-up if it is going to last."**
+- Attribution: IBM Think 2026 synthesis — cite IBM Think 2026
+- Use: Closes enterprise talk. Reframes transformation from project to operating model.
+- Tweet: "Top-down without bottom-up = strategy theatre. Bottom-up without top-down = pilots that never scale. Both tracks must run."
+
+---
+
+### Landscape Implication (Architecture as Audit Trail)
+
+**"Interpretability becomes architecture. The next competitive AI system is one whose repository makes it obvious how intelligence flows through the work."**
+- Attribution: V's frame (landscape synthesis — IBM/ICM signal)
+- Use: Closes enterprise talk on glass-box AI. Opens ICM architecture argument for regulated industries.
+- Why it works: Repositions "interpretable AI" from compliance tax to competitive moat.
+- Tweet: "The next AI advantage isn't the model. It's the repository that makes intelligence visible."
+
+**"Framework abstraction is not the only path. A well-designed repository can substitute for parts of agent orchestration — routing and execution order obvious from the folder tree."**
+- Attribution: V's frame (landscape synthesis)
+- Use: Response to "why not LangChain?" objection. Enterprise + Technical streams.
+- Why it works: Reframes ICM as architecture decision, not tool preference.
+- Tweet: "You don't need a framework to route intelligence. You need a well-designed folder structure."
+
+**"A folder-based system gives you a built-in audit trail: what context was used, what changed, what got published. Interpretability isn't a feature you add — it's the architecture you choose."**
+- Attribution: V's frame
+- Use: EU AI Act compliance angle. Legal/risk audience.
+- Tweet: "Built-in audit trail. No XAI retrofit needed. Just a folder structure designed to show its work."
+
+---
+
+### Agent Engineering (Kitchen/Recipes)
+
+**"Prompt engineering is about recipes. Agent engineering is about building the kitchen."**
+- Attribution: AI Agents Simplified / Arian Jafari, April 2026 — cite
+- Use: Opens any talk on context engineering, ICM, Tech-9 (why not LangChain). Strong hook.
+- Why it works: Immediate intuition — everyone knows the difference between a recipe and a kitchen.
+- Tweet: "Prompt engineering = recipes. Agent engineering = building the kitchen. Different discipline entirely."
+
+**"Everyone's optimising their recipes. V designs the kitchen. Recipes change every week. Kitchens last years."**
+- Attribution: V's version
+- Use: Personal positioning. Consulting pitch opener.
+- Tweet: "Recipes change. Kitchens last. What are you building?"
+
+---
+
 ### Teaching Stream Openers
 
 **"In a world where answers are cheap, questions are precious."**
